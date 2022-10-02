@@ -36,11 +36,16 @@ header{
 nav li{
   list-style: none;
   float: left;
-  padding: 35px 20px;
+  padding: 35px 20px 25px 20px;
   font-size: 20px;
   font-family: 'Podkova', serif;
   font-weight: 700;
   color: white;
+}
+
+nav li > img{
+  width: 40px;
+  height: 40px;
 }
 
 .login{
