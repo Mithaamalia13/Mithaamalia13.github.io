@@ -27,7 +27,7 @@ $('#dark-mode').click(function(){
             $('.card-body').css('color','#FEC145');
         },
         function(){
-            $('.card-body').css('color','black');
+            $('.card-body').css('color','white');
         }
         );    
         darkmode = 1;
