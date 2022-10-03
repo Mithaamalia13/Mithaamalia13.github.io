@@ -11,7 +11,7 @@ var darkmode = 0;
 $('#dark-mode').click(function(){
     if(darkmode === 0){
         $('#dark-mode').attr("src","img/brightness.png"); //manipulasi DOM selain warna pada darkmode untuk ngubah icon dark ke light
-        $('header').css({"background-image" : "url(../img/darkmode.jpg)"}); //manipulasi DOM selain warna pada darkmode untuk ngubah background light ke dark
+        $('header').css({"background-image" : "url(img/darkmode.jpg)"}); //manipulasi DOM selain warna pada darkmode untuk ngubah background light ke dark
         $('.main').css('background-color',"black");
         $('.about').css('background-color',"black");
         $('.show').css('background-color',"	#555555");
@@ -30,7 +30,7 @@ $('#dark-mode').click(function(){
         darkmode = 1;
     } else{
         $('#dark-mode').attr("src","img/moon.png");
-        $('header').css({"background-image" : "url(../img/background.png)"});
+        $('header').css({"background-image" : "url(img/background.png)"});
         $('.main').css('background-color',"#21322A");
         $('.about').css('background-color',"#21322A");
         $('.show').css('background-color',"#1D2924");
