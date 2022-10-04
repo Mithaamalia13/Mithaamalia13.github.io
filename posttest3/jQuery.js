@@ -19,6 +19,7 @@ $('#dark-mode').click(function(){
         $('.about').css('background-color',"black");
         $('.show').css('background-color',"	#555555");
         $('footer').css('background-color',"#0e1111");
+        alert('Anda berada dalam Dark Mode');
         //Animasi untuk Content
         $('.card').hide();
         $('.card').slideDown(5000);
@@ -41,6 +42,7 @@ $('#dark-mode').click(function(){
         $('.about').css('background-color',"#21322A");
         $('.show').css('background-color',"#1D2924");
         $('footer').css('background-color',"#1D2924");
+        alert('Anda berada dalam Light Mode');
         //Animasi untuk Content
         $('.card').hide();
         $('.card').slideDown(5000);
